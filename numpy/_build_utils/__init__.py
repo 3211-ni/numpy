@@ -20,3 +20,5 @@ def import_file(folder, module_name):
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
+
+print("class"): # type: ignore
